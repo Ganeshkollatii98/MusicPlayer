@@ -1,0 +1,113 @@
+html {
+    background-color: #19243c;
+     color:white;
+    margin:0;
+    font-family: "Lato", sans-serif;
+  }
+  section{
+    width: 90%;
+    height: auto;
+    margin-left: 2rem;  
+    margin-bottom: 2rem;  
+   } 
+.section-title h2 span{
+    text-transform: capitalize;
+    font-weight: 700;
+    
+}
+.music-player{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    
+       &__logo img{
+          width:3rem;
+          height:3rem;
+          border-radius:1.5rem;
+      }
+      &__title{
+            margin-top:2px;
+           span{
+             margin:2px;
+             text-transform:capitalize;
+             line-height:4px;
+             font-size:20px;
+             
+             font-weight: 700;
+            
+            }
+      }
+      &__favourites span{
+        position:absolute;
+        left:150px;
+        top:5px;
+        text-transform:capitalize;
+        a{
+          text-decoration:none;
+          color:white;
+          font-weight: 700;
+          font-size:18px;
+        }
+      }
+      &__search-bar{
+        position:absolute;
+        left:60%;
+        top:2%;
+      
+        input{
+          outline:none;
+          border:none;
+          color:white;
+          background-color:#12203dd3;
+          box-shadow: .5rem .4rem 2rem #1c3364;
+          position:relative;
+          z-index:10;
+          font-size:24px;
+          width: 300px;
+          padding:3px;
+          padding-left:45px;
+          padding-right:35px; 
+          border-radius: 2.5rem;
+        }
+        #microphone{
+          position:absolute;
+          left:95%;
+          top:10px;
+          font-size:18px;
+          z-index:20;
+          color:white;
+        }
+        #search-icon{
+          position:absolute;
+          left:3%;
+          top:10px;
+          font-size:18px;
+          z-index:20;
+           color:white;
+        }
+      }
+      &__notification-icon i{
+        position:absolute;
+        left:92%;
+        top:5%;
+        font-size:30px;
+        color:white;
+       
+      }
+      &__user-profile{
+           a{
+             text-decoration:none;
+              img{
+                position:absolute;
+                width:3rem;
+                height:3rem;
+                left:97%;
+                top:0;
+                border-radius:1.5rem;
+              }
+           }
+          
+      }
+    }
+  
+  

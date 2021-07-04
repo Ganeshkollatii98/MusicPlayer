@@ -1,0 +1,14 @@
+{
+  "name": "musicplayer-project",
+  "version": "1.0.0",
+  "description": "This Project Is Used For Play Songs And Create Playlists",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass --watch sass/main.scss css/style.css"
+  },
+  "author": "Ganesh Kollati",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

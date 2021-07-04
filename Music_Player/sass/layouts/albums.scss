@@ -1,0 +1,55 @@
+.content{
+    position:relative;
+    margin-top:60px;
+    main{
+        display:inline-block;
+       position:absolute;
+       top:20%;
+       width: 75%;
+       height:100vh;
+    //    border:1px solid white;
+       
+       .albums{
+             
+             
+            &-images{
+                display:flex;
+                justify-content: space-between;
+                z-index:10;
+                img{
+                    
+                    border-radius: .5rem;
+                    
+                    background-attachment: fixed;
+                    background-size: cover;
+                    width: 19rem;
+                    height: 300px;
+                    opacity:0.5;
+                    transition: all .3s ease ;
+                    
+                    &:hover{
+                        z-index:20;
+                        opacity:1;
+                        
+                        transform:scale(1.2);
+                        box-shadow: 0rem 0rem 5rem #515b70;
+                    }
+                }
+            } 
+
+       }
+
+
+         
+       
+    }
+    aside{
+        display:inline-block;
+        position:absolute;
+        left: 75%;
+        width: 25%;
+        height:100vh;
+       //@include border:1px solid white;
+    }
+    
+}

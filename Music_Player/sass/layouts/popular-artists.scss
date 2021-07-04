@@ -1,0 +1,22 @@
+.artists{
+    position: relative;
+    // width: 11rem;
+    margin-right: 1rem;
+    margin-bottom:3rem;
+    &-img img{
+        width: 8rem;
+        border-radius: 50%;
+    }
+    span{
+        position: absolute;
+        top: 9.5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+.popular-artists{
+    display: flex;
+    flex-wrap: wrap;
+}
